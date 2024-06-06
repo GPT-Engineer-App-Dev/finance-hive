@@ -2,7 +2,7 @@ import { Box, Container, Flex, Heading, Text, VStack, Image, Stack } from "@chak
 
 const Index = () => {
   return (
-    <Container maxW="container.xl" p={4}>
+    <Container maxW="container.xl" p={4} bg="#f3f2ef">
       <Flex direction={{ base: "column", md: "row" }} justify="space-between">
         {/* Main Content */}
         <Box flex="3" p={4}>
